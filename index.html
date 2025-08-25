@@ -16,17 +16,24 @@
   <body>
     <header class="primary-header">
       <div class="container">
-        <a href="#"><img src="images/logo.svg" alt="Manage" /></a>
-        <nav class="primary-navigation">
-          <ul>
-            <li><a href="#"></a>Pricing</li>
-            <li><a href="#"></a>Product</li>
-            <li><a href="#"></a>About Us</li>
-            <li><a href="#"></a>Careers</li>
-            <li><a href="#"></a>Community</li>
-          </ul>
-        </nav>
-        <button class="button">Get Started</button>
+        <div class="nav-wrapper">
+          <a href="#"><img src="images/logo.svg" alt="Manage" /></a>
+          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <img class="icon-hamburger" src="./images/icon-hamburger.svg" alt="" aria-hidden="true />
+            <img class="icon-close" src="./images/icon-close.svg" alt="" aria-hidden="true"/>
+            <span class="visually-hidden">Menu</span>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul class="nav-list" aria-label="Primary" role="list"  >
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </nav>
+          <button class="button | display-sm-none display-md-inline-flex">Get Started</button>
+        </div>
       </div>
     </header>
 
@@ -137,13 +144,13 @@
           <div>
             <nav class="footer-nav">
               <ul role="list" aria-label="Footer">
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>Pricing</li>
-                <li><a href="#"></a>Products</li>
-                <li><a href="#"></a>Careers</li>
-                <li><a href="#"></a>About Us</li>
-                <li><a href="#"></a>Community</li>
-                <li><a href="#"></a>Privacy Policy</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Privacy Policy</a></li>
               </ul>
             </nav>
           </div>
